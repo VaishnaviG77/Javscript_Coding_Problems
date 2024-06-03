@@ -31,7 +31,7 @@ Feel free to explore the folders and choose the challenges that interest you the
 
 ## Contributing
 
-Contributions to this repository are welcome! If you have additional coding challenges or alternative solutions to existing challenges, feel free to submit a pull request. Please make sure to follow the contribution guidelines outlined in the CONTRIBUTING.md file.
+Contributions to this repository are welcome! If you have additional coding challenges or alternative solutions to existing challenges, feel free to submit a pull request.
 
 ## Feedback
 
