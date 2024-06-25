@@ -1,27 +1,29 @@
-const input = require("readline-sync");
+let input = require("readline-sync")
 
 let n = parseInt(input.question("Enter size of array: "));
-let a = [];
-
-let i = 0;
+let i = 0
+let a=[];
 while(i<n){
-    a[i]=parseInt(input.question("Enter num: "));
-    i++;
+    a[i] = parseInt(input.question("Enter number: "));
+    i = i + 1;
 }
 
-i=0;
+let max = 0;
+let cnt = 0;
+i = 0;
 while(i<n){
-    flag=0;
-    let j = 0;
-    while(j<n){
-        if(i!=j && a[i]==a[j]){
-            flag = 1;
-            break;
+    if(a[i]==1){
+        cnt++;
+    }else{
+        if(max<cnt){
+            max = cnt;
         }
-        j++;
-    }
-    if(flag==0){
-        console.log(a[i]);
+        cnt = 0;
     }
     i++;
 }
+
+if(max<cnt){
+    max = cnt;
+}
+console.log(max)
