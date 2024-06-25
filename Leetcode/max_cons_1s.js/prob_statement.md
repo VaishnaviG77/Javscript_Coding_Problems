@@ -1,7 +1,8 @@
-Given a non-empty array of integers nums, every element appears twice except for one. Find that single one.
-You must implement a solution with a linear runtime complexity and use only constant extra space.
+Given a binary array nums, return the maximum number of consecutive 1's in the array.
+
 
 Example 1:
 
-Input: nums = [2,2,1]
-Output: 1
+Input: nums = [1,1,0,1,1,1]
+Output: 3
+Explanation: The first two digits or the last three digits are consecutive 1s. The maximum number of consecutive 1s is 3.
